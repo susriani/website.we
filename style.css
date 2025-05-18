@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1a1a2e;
+  color: #fff;
+  text-align: center;
+}
+header {
+  background: #5f27cd;
+  padding: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.logo img {
+  height: 60px;
+}
+.tagline {
+  margin-top: 10px;
+  font-style: italic;
+}
+.saldo {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.games {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.game {
+  background: #2c2c54;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+.game img {
+  width: 100%;
+  border-radius: 10px;
+}
+.wa-btn {
+  display: inline-block;
+  background: #25d366;
+  padding: 10px 20px;
+  color: #fff;
+  margin: 20px auto;
+  border-radius: 8px;
+  text-decoration: none;
+}
+footer {
+  background: #222;
+  padding: 20px;
+  margin-top: 30px;
+}
